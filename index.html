@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible"
+        content="IE=edge">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>القران الكريم صوت</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+
+
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcsXbQobysUVzHczjRNvj1IKQ3Dqph-2PjPA&usqp=CAU");
+                background-size: cover;
+
+            }
+            audio,
+            img{
+                display: block;
+                justify-content: center;
+                text-align: center;
+            }
+            div{
+                margin:auto;
+                padding: 10px;
+                text-align:content;
+                justify-content: center;
+                width: 100%;
+                color: wheat;
+                font-size: large;
+                font-weight: 500;
+            }
+            div img{
+                width: 60%;
+                margin: auto;
+
+            }
+            div audio{
+                margin: auto;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <font size="6" color="red"face>
+        <h2><center>القران الكريم</center></h2>
+        </font>
+        <font size="4" color="yellow"face>
+        <h3><center>(لا تهجروا القران فتضيق بكم الحياة)</center></h3>
+        </font>
+        <hr>
+        <font size="5" color="blue"face>
+        <h4>القران الكريم كامل بصوت الشيخ(سعد الغامدي)</h4>
+        </font>
+        <img src="data:image/jpeg;base64,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" alt="">
+        <label> سورة الفاتحة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/001.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <ladel>سوة البقرة</ladel>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/002.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورةال عمران</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/003.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة النساء</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/004.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة المائدة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/005.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الانعام</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/006.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الاعراف</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/007.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الانفال</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/008.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة التوبة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/009.mp3" 
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة يونس</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/010.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سوة هود</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/011.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة يوسف</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/012.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الرعد</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/013.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة ابراهيم</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/014.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الحجر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/015.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة النحل</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/016.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الاسراء</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/017.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الكهف</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/018.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة مريم</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/019.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة طه</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/020.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الانبياء</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/021.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الحج</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/022.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة المؤمنون</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/023.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة النور </label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/024.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الفرقان</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/025.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الشعراء</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/026.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة النمل</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/027.mp3"
+        controls>متصفح  يدعم الصوت </audio>
+        <hr>
+        <label>سورة القصص</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/028.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة العنكبوت</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/029.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr> 
+        <label>سورة الروم</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/030.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة لقمان</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/031.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة السجدة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/032.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الاحزاب</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/033.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة سبأ</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/034.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة فاطر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/035.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة يس</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/036.mp3"
+        controls>متصفح  يدعم الصوت </audio>
+        <hr>
+        <label>سورة الصافات</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/037.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة ص</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/038.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الزمر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/039.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة غافر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/040.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة فصلت</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/041.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الشورى</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/042.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الزخرف</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/043.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الدخان</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/044.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الجاثية</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/045.mp3"
+        controls>متصفح  يدع الصوت</audio>
+        <hr>
+        <label>سورة الاحقاف</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/046.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة محمد</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/047.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الفتح</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/048.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الحجرات</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/049.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة ق</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/050.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الذاريات</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/051.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الطور</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/052.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة النجم</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/053.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة القمر </label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/054.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الرحمن</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/055.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الواقعه</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/056.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الحديد</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/057.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة المجادلة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/058.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الحشر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/059.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الممتحنة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/060.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الصف</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/061.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الجمعة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/062.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة المنافقون</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/063.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة التغابن</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/064.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الطلاق</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/065.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة التحريم</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/066.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الملك</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/067.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة القلم</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/068.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الحاقة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/069.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr> 
+        <label>سورة المعارج</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/070.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة نوح</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/071.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الجن</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/072.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>المزمل</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/073.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>المدثر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/074.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة القيامة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/075.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة الانسان</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/076.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة المرسلات</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/077.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة النبأ</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/078.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة النازعات</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/079.mp3"
+        controls>متصفح  يدعم الصوت</audio>
+        <hr>
+        <label>سورة عبس</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/080.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة التكوير</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/081.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الافطار</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/082.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة المطففين</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/083.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الانشقاق</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/084.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة البروج</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/085.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الطارق</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/086.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الاعلى</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/087.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الغاشية</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/088.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الفجر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/089.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة البلد</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/090.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الشمس</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/091.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الليل</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/092.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الضحى</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/093.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الشرح</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/094.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة التين</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/095.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة العلق</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/096.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة القدر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/097.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة البينة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/098.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الزلزلة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/099.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة العاديات</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/100.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة القارعة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/101.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة التكاثر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/102.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة العصر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/103.mp3"
+        cotrols>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الهمزة</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/104.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الفيل</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/105.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr> 
+        <label>سورة قريش</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/106.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الماعون</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/107.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الكوثر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/108.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الكافرون</label>
+        <audio 
+        src="https://server7.mp3quran.net/s_gmd/109.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة النصر</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/110.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة المسد</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/111.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الاخلاص</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/112.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الفلق</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/113.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+        <label>سورة الناس</label>
+        <audio
+        src="https://server7.mp3quran.net/s_gmd/114.mp3"
+        controls>متصفح يدعم الصوت</audio>
+        <hr>
+    </div>
+    <script>
+        document.addEventListener('play',function(e){
+            var audios =audios
+            document.getElementsbytagname('audio');
+            for(var i = 0,len =audios.length; i < len;i++){
+                if(audios[i] != e.target) 
+                {
+                    audios[i].pause();
+                }
+
+            }
+        }, true);
+
+
+    </script>
+
+    </body>
+</html>
